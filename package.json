@@ -1,7 +1,10 @@
 {
-  "name": "bot-zdg",
-  "version": "1.0.0",
-  "description": "bot-zdg: based on Whatsapp API",
+  "name": "bot-vita",
+  "version": "1.1.0",
+  "description": "bot-vita: based on Whatsapp API",
+  "engines": {
+    "node": "18.x || 16.x"
+  },
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -12,7 +15,7 @@
     "whatsapp-api",
     "node.js"
   ],
-  "author": "Pedro",
+  "author": "Lucas",
   "license": "MIT",
   "dependencies": {
     "@google-cloud/dialogflow": "^4.6.0",
