@@ -5,6 +5,7 @@ const http = require("http");
 const port = process.env.PORT || 8000;
 const app = express();
 const server = http.createServer(app);
+const browser = await puppeteer.launch({ args: ["--no-sandbox"] });
 app.use(express.json());
 app.use(
   express.urlencoded({
