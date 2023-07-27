@@ -23,7 +23,7 @@ app.use(
 
   const client = new Client({
     authStrategy: new LocalAuth(),
-    puppeteer: { headless: false, browser },
+    puppeteer: { headless: "new", browser },
   });
 
   client.initialize();
