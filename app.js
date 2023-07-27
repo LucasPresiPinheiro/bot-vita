@@ -15,11 +15,15 @@ app.use(
 );
 
 (async () => {
-  const browser = await puppeteer.launch({ args: ["--no-sandbox"] });
+  const browser = await puppeteer.launch({
+    executablePath:
+      "C:\\Users\\avalu\\.cache\\puppeteer\\chrome\\win64-115.0.5790.98\\chrome-win64\\chrome.exe",
+    args: ["--no-sandbox", "--disable-setuid-sandbox"],
+  });
 
   const client = new Client({
     authStrategy: new LocalAuth(),
-    puppeteer: { headless: true, browser },
+    puppeteer: { headless: false, browser },
   });
 
   client.initialize();

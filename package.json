@@ -29,6 +29,7 @@
     "http": "0.0.1-security",
     "mime-types": "^2.1.32",
     "mysql2": "^2.3.3",
+    "puppeteer": "^20.9.0",
     "qrcode": "^1.4.4",
     "socket.io": "2.3.0",
     "util": "^0.12.4",
