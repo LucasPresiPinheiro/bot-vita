@@ -15,11 +15,12 @@ app.use(
 );
 
 (async () => {
-  const browser = await puppeteer.launch({
-    executablePath:
-      "C:\\Users\\avalu\\.cache\\puppeteer\\chrome\\win64-115.0.5790.98\\chrome-win64\\chrome.exe",
-    args: ["--no-sandbox", "--disable-setuid-sandbox"],
-  });
+  try {
+    // Configura o caminho do executável do Chromium no servidor Linux
+    const browser = await puppeteer.launch({
+      executablePath: '/usr/bin/chromium-browser', // Substitua pelo caminho correto, caso seja diferente
+      args: ['--no-sandbox', '--disable-setuid-sandbox'], // Necessário para executar o Chromium sem problemas em um servidor
+    });
 
   const client = new Client({
     authStrategy: new LocalAuth(),
@@ -115,4 +116,5 @@ app.use(
   server.listen(port, function () {
     console.log("Aplicação bot-vita rodando na porta *: " + port);
   });
+}
 })();

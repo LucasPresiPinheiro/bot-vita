@@ -1,3 +1,6 @@
-2023/07/28-08:26:21.538 248c Reusing MANIFEST C:\Users\avalu\OneDrive\Área de Trabalho\bot-vita\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
-2023/07/28-08:26:21.539 248c Recovering log #4
-2023/07/28-08:26:21.540 248c Reusing old log C:\Users\avalu\OneDrive\Área de Trabalho\bot-vita\.wwebjs_auth\session\Default\Local Storage\leveldb/000004.log 
+2023/07/28-14:24:36.647 1578 Reusing MANIFEST C:\Users\avalu\OneDrive\Área de Trabalho\bot-vita\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
+2023/07/28-14:24:36.647 1578 Recovering log #4
+2023/07/28-14:24:36.648 1578 Reusing old log C:\Users\avalu\OneDrive\Área de Trabalho\bot-vita\.wwebjs_auth\session\Default\Local Storage\leveldb/000004.log 
+2023/07/28-14:26:37.237 b58 Level-0 table #8: started
+2023/07/28-14:26:37.242 b58 Level-0 table #8: 24974 bytes OK
+2023/07/28-14:26:37.244 b58 Delete type=0 #4
