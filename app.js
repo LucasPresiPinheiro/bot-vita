@@ -12,7 +12,7 @@ app.use(express.urlencoded({
 
 const client = new Client({
     authStrategy: new LocalAuth(),
-    puppeteer: { headless: false }
+    puppeteer: { headless: true }
 });
 
 client.initialize();
